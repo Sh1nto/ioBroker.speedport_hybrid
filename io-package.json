@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "speedport_hybrid",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Speedport Hybrid",
+		"titleLang": {
+			"en": "Speedport Hybrid",
+			"de": "Speedport Hybrid",
+			"ru": "Спидпорт Гибрид",
+			"pt": "Speedport Hybrid",
+			"nl": "Speedport hybride",
+			"fr": "Speedport hybride",
+			"it": "Speedport Hybrid",
+			"es": "Speedport Hybrid",
+			"pl": "Speedport Hybrid",
+			"zh-cn": "Speedport混合动力"
+		},
+		"desc": {
+			"en": "Show statusinformations for Speedport Hybrid",
+			"de": "Statusinformationen zu Speedport Hybrid anzeigen",
+			"ru": "Показать информацию о состоянии Speedport Hybrid",
+			"pt": "Mostrar informações de status para Speedport Hybrid",
+			"nl": "Toon statusinformatie voor Speedport Hybrid",
+			"fr": "Afficher les informations d'état pour Speedport Hybrid",
+			"it": "Mostra informazioni sullo stato per Speedport Hybrid",
+			"es": "Mostrar información de estado para Speedport Hybrid",
+			"pl": "Pokaż informacje o stanie dla Speedport Hybrid",
+			"zh-cn": "显示Speedport Hybrid的状态信息"
+		},
+		"authors": [
+			"Tim <github@midl.de>"
+		],
+		"keywords": [
+			"speeedport",
+			"dsl",
+			"lte"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "speedport_hybrid.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Sh1nto/ioBroker.speedport_hybrid/master/admin/speedport_hybrid.png",
+		"readme": "https://github.com/Sh1nto/ioBroker.speedport_hybrid/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "network",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
