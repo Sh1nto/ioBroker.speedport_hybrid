@@ -25,5 +25,17 @@ systemDictionary = {
 		'es': 'Speedport URL',
 		'pl': 'Speedport URL',
 		'zh-cn': 'Speedport URL'
+	},
+	'refresh': {
+		'en': 'Refresh ms (min 10000)',
+		'de': 'Refresh ms (min 10000)',
+		'ru': 'Refresh ms (min 10000)',
+		'pt': 'Refresh ms (min 10000)',
+		'nl': 'Refresh ms (min 10000)',
+		'fr': 'Refresh ms (min 10000)',
+		'it': 'Refresh ms (min 10000)',
+		'es': 'Refresh ms (min 10000)',
+		'pl': 'Refresh ms (min 10000)',
+		'zh-cn': 'Refresh ms (min 10000)'
 	}
 };

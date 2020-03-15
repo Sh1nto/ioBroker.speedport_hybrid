@@ -68,7 +68,8 @@
 		]
 	},
 	"native": {
-		"speedportURL": "speedport.ip"
+		"speedportURL": "speedport.ip",
+		"refresh": 10000
 	},
 	"objects": [],
 	"instanceObjects": []
